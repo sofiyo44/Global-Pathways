@@ -4,6 +4,115 @@ body {
     padding: 0;
 }
 
+.header {
+    background-color: black;
+    color: white;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 60px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    margin-right: 20px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.header-content {
+    text-align: center;
+    width: 100%;
+    padding: 50px 0;
+    background-image: url('header-image.jpg'); /* replace with your own image */
+    background-size: cover;
+    background-position: center;
+}
+
+.header-content h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.login-link {
+    margin-left: auto;
+}
+
+.login-link a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.talent {
+    padding: 40px 20px;
+    background-color: #FF6F61;
+    text-align: center;
+}
+
+.talent h2 {
+    margin-bottom: 30px;
+    color: white;
+}
+
+.talent-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.talent-item {
+    width: 23%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.talent-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.talent-item h3 {
+    margin-top: 15px;
+    font-size: 1.2em;
+    color: white;
+}
+
+.talent-item p {
+    color: white;
+    font-style: italic;
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
 .hero {
     position: relative;
     height: 100vh;
