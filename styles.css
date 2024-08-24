@@ -2,6 +2,13 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    line-height: 1.6;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
 }
 
 .header {
@@ -10,158 +17,161 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 20px;
+    padding: 20px;
 }
 
 .logo img {
     height: 60px;
 }
 
-.navbar ul, .footer-nav {
+.navbar ul {
     list-style: none;
     display: flex;
     margin: 0;
     padding: 0;
 }
 
-.navbar ul li, .footer-nav a {
+.navbar ul li {
     margin-right: 20px;
 }
 
-.navbar ul li a, .footer-nav a, .login-link a, .social-media a {
+.navbar ul li a, .login-link a, .footer-nav a, .social-media a {
     color: white;
     text-decoration: none;
     font-weight: bold;
-}
-
-.header-content {
-    text-align: center;
-    width: 100%;
-    padding: 50px 0;
-    background-size: cover;
-    background-position: center;
-}
-
-.header-content h1 {
-    font-size: 3em;
-    margin-bottom: 20px;
-}
-
-.cta-button, .footer-content button {
-    background-color: #ff5722;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    margin-top: 20px;
-    display: inline-block;
-    cursor: pointer;
 }
 
 .login-link {
     margin-left: auto;
 }
 
-.talent, .testimonials, .our-courses, .learning-together, .explore-baking, .course-benefits {
-    text-align: center;
-    padding: 50px 20px;
-}
-
-.talent-grid, .course-list, .instructor-list, .explore-section, .course-benefits {
+.hero {
+    background: url('your-hero-image.jpg') no-repeat center center/cover;
+    height: 80vh;
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
-    align-items: stretch;
-    margin: 0 auto;
-}
-
-.talent-item, .course-item, .instructor-item, .explore-item, .benefit {
-    flex: 1;
-    padding: 40px 20px;
-    margin: 20px;
-    max-width: 300px;
+    align-items: center;
+    text-align: center;
     color: white;
 }
 
-.talent-item img, .course-item img, .instructor-item img, .explore-item img {
+.hero-content h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    background-color: #ff5722;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.talent, .about, .courses, .benefits, .testimonials, .footer {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.talent-grid, .course-grid, .benefit-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.talent-item, .course-item, .benefit-item {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    max-width: 300px;
+}
+
+.talent-item img, .course-item img {
     width: 100%;
+    height: auto;
     border-radius: 10px;
 }
 
-.talent {
-    background-color: #FF6F61;
+h2 {
+    margin-bottom: 20px;
+    font-size: 2.5em;
 }
 
-.learning-together {
-    background-color: #FFEB3B;
-}
-
-.our-courses {
-    background-color: black;
-    color: white;
-}
-
-.explore-baking, #benefit3 {
-    background-color: #FFEB3B;
-    color: black;
-    text-align: left;
-    position: relative;
-}
-
-#explore1, #benefit1 {
-    background-color: #FF6F61;
-    color: black;
-}
-
-#explore2, #benefit2 {
-    background-color: #B39DDB;
-    color: black;
-}
-
-.benefit-content h4, .benefit-content h2, .explore-item h3, .explore-container h3, .talent-item h3, .instructor-item h3 {
+h3 {
+    margin-top: 10px;
     font-size: 1.5em;
-    margin-bottom: 15px;
 }
 
-.benefit-content p, .explore-item p, .explore-container p, .talent-item p, .instructor-item p {
+p {
+    margin-top: 10px;
     font-size: 1.2em;
-    margin: 0 auto;
-    max-width: 300px;
+    line-height: 1.5;
 }
 
-.footer {
-    background-color: black;
-    color: white;
-    padding: 50px 20px;
-    text-align: center;
-}
-
-.footer-content input {
-    padding: 10px;
-    margin-right: 10px;
-    border: none;
-    border-radius: 5px;
-}
-
-.footer-nav a:hover, .social-media a:hover {
-    text-decoration: underline;
-}
-
-.social-media a {
-    margin: 0 10px;
-    text-decoration: none;
+.benefit-item {
+    padding: 30px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
 }
 
 .testimonials {
-    background-color: #B39DDB;
-    color: black;
-}
-
-.testimonials p {
-    font-size: 1.5em;
+    background-color: #f4f4f4;
+    color: #333;
 }
 
 .testimonials .author {
     margin-top: 20px;
     font-weight: bold;
+    font-size: 1.2em;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    padding: 30px 0;
+}
+
+.footer-content form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.footer-content input[type="email"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 10px;
+Here's the continuation and completion of the CSS:
+
+```css
+    cursor: pointer;
+}
+
+.footer-content input[type="email"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 10px;
+}
+
+.footer-content button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff5722;
+    color: white;
+    cursor: pointer;
+}
+
+.footer-nav a, .social-media a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.footer-nav a:hover, .social-media a:hover {
+    text-decoration: underline;
 }
