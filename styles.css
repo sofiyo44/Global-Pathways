@@ -34,7 +34,7 @@ body {
     font-weight: bold;
 }
 
-.header-content, .hero-content {
+.header-content {
     text-align: center;
     width: 100%;
     padding: 50px 0;
@@ -42,7 +42,7 @@ body {
     background-position: center;
 }
 
-.header-content h1, .hero-content h1 {
+.header-content h1 {
     font-size: 3em;
     margin-bottom: 20px;
 }
@@ -62,51 +62,71 @@ body {
     margin-left: auto;
 }
 
-.hero {
-    position: relative;
-    height: 100vh;
-    overflow: hidden;
+.talent, .testimonials, .our-courses, .learning-together, .explore-baking, .course-benefits {
+    text-align: center;
+    padding: 50px 20px;
 }
 
-#heroVideo {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: -1;
-}
-
-.features, .talent-grid, .course-list, .instructor-list {
+.talent-grid, .course-list, .instructor-list, .explore-section, .course-benefits {
     display: flex;
     justify-content: center;
-    align-items: stretch;
-    text-align: center;
     flex-wrap: wrap;
+    align-items: stretch;
+    margin: 0 auto;
 }
 
-.feature, .talent-item, .course-item, .instructor-item {
+.talent-item, .course-item, .instructor-item, .explore-item, .benefit {
     flex: 1;
     padding: 40px 20px;
-    color: white;
     margin: 20px;
     max-width: 300px;
+    color: white;
 }
 
-.feature img, .talent-item img, .course-item img, .instructor-item img {
+.talent-item img, .course-item img, .instructor-item img, .explore-item img {
     width: 100%;
     border-radius: 10px;
 }
 
-h2 {
-    margin-bottom: 30px;
-    font-size: 2.5em;
+.talent {
+    background-color: #FF6F61;
 }
 
-h3 {
-    margin-top: 15px;
+.learning-together {
+    background-color: #FFEB3B;
+}
+
+.our-courses {
+    background-color: black;
+    color: white;
+}
+
+.explore-baking, #benefit3 {
+    background-color: #FFEB3B;
+    color: black;
+    text-align: left;
+    position: relative;
+}
+
+#explore1, #benefit1 {
+    background-color: #FF6F61;
+    color: black;
+}
+
+#explore2, #benefit2 {
+    background-color: #B39DDB;
+    color: black;
+}
+
+.benefit-content h4, .benefit-content h2, .explore-item h3, .explore-container h3, .talent-item h3, .instructor-item h3 {
     font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+.benefit-content p, .explore-item p, .explore-container p, .talent-item p, .instructor-item p {
+    font-size: 1.2em;
+    margin: 0 auto;
+    max-width: 300px;
 }
 
 .footer {
@@ -127,98 +147,21 @@ h3 {
     text-decoration: underline;
 }
 
-.talent {
-    padding: 40px 20px;
-    background-color: #FF6F61;
-}
-
-.testimonials {
-    padding: 50px 20px;
-    text-align: center;
-    background-color: #B39DDB;
-}
-
-.testimonials p {
-    font-size: 1.5em;
-    color: black;
-}
-
-.testimonials .author {
-    margin-top: 20px;
-    font-weight: bold;
-}
-
 .social-media a {
     margin: 0 10px;
     text-decoration: none;
 }
 
-/* Learning Together Section */
-.learning-together {
-    background-color: #FFEB3B;
-    text-align: center;
-    padding: 80px 20px;
-}
-
-.learning-container h2 {
-    font-size: 1.2em;
-    margin-bottom: 10px;
-}
-
-.learning-container h1 {
-    font-size: 2.5em;
-    margin-bottom: 20px;
-}
-
-/* Our Courses Section */
-.our-courses {
-    background-color: black;
-    color: white;
-    text-align: center;
-    padding: 80px 20px;
-}
-
-.courses-container h2 {
-    font-size: 1.2em;
-    margin-bottom: 10px;
-}
-
-.courses-container h1 {
-    font-size: 2.5em;
-    margin-bottom: 20px;
-}
-
-/* Explore Section */
-.explore-section {
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-}
-
-.explore-item {
-    flex: 1;
-    padding: 40px 20px;
-}
-
-#explore1 {
-    background-color: #FF6F61;
-    color: black;
-}
-
-#explore2 {
+.testimonials {
     background-color: #B39DDB;
     color: black;
 }
 
-.explore-item h3 {
-    font-size: 1.2em;
-    margin-bottom: 10px;
-    text-transform: uppercase;
+.testimonials p {
+    font-size: 1.5em;
 }
 
-.explore-item p {
-    font-size: 1.5em;
-    margin-top: 10px;
+.testimonials .author {
+    margin-top: 20px;
     font-weight: bold;
-    text-decoration: underline;
 }
