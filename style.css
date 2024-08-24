@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#heroVideo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    color: white;
+    padding-top: 30vh;
+}
+
+.cta-button {
+    background-color: #ff5722;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.courses, .instructors {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.course-list, .instructor-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.course-item, .instructor-item {
+    margin: 20px;
+    max-width: 300px;
+}
+
+.course-item img, .instructor-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+h2 {
+    margin-bottom: 30px;
+    font-size: 2.5em;
+}
+
+h3 {
+    margin-top: 15px;
+    font-size: 1.5em;
+}
