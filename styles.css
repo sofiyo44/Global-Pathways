@@ -7,110 +7,59 @@ body {
 .header {
     background-color: black;
     color: white;
-    padding: 20px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 20px 20px;
 }
 
 .logo img {
     height: 60px;
 }
 
-.navbar ul {
+.navbar ul, .footer-nav {
     list-style: none;
     display: flex;
     margin: 0;
     padding: 0;
 }
 
-.navbar ul li {
+.navbar ul li, .footer-nav a {
     margin-right: 20px;
 }
 
-.navbar ul li a {
+.navbar ul li a, .footer-nav a, .login-link a, .social-media a {
     color: white;
     text-decoration: none;
     font-weight: bold;
 }
 
-.header-content {
+.header-content, .hero-content {
     text-align: center;
     width: 100%;
     padding: 50px 0;
-    background-image: url('header-image.jpg'); /* replace with your own image */
     background-size: cover;
     background-position: center;
 }
 
-.header-content h1 {
+.header-content h1, .hero-content h1 {
     font-size: 3em;
     margin-bottom: 20px;
 }
 
-.cta-button {
-    background-color: #4CAF50;
+.cta-button, .footer-content button {
+    background-color: #ff5722;
     color: white;
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
+    margin-top: 20px;
+    display: inline-block;
+    cursor: pointer;
 }
 
 .login-link {
     margin-left: auto;
-}
-
-.login-link a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.talent {
-    padding: 40px 20px;
-    background-color: #FF6F61;
-    text-align: center;
-}
-
-.talent h2 {
-    margin-bottom: 30px;
-    color: white;
-}
-
-.talent-grid {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
-.talent-item {
-    width: 23%;
-    margin-bottom: 20px;
-    text-align: center;
-}
-
-.talent-item img {
-    width: 100%;
-    border-radius: 10px;
-}
-
-.talent-item h3 {
-    margin-top: 15px;
-    font-size: 1.2em;
-    color: white;
-}
-
-.talent-item p {
-    color: white;
-    font-style: italic;
-}
-
-
-
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
 }
 
 .hero {
@@ -129,41 +78,23 @@ body {
     z-index: -1;
 }
 
-.hero-content {
-    position: relative;
-    z-index: 1;
-    text-align: center;
-    color: white;
-    padding-top: 30vh;
-}
-
-.cta-button {
-    background-color: #ff5722;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    margin-top: 20px;
-    display: inline-block;
-}
-
-.courses, .instructors {
-    padding: 50px 20px;
-    text-align: center;
-}
-
-.course-list, .instructor-list {
+.features, .talent-grid, .course-list, .instructor-list {
     display: flex;
     justify-content: center;
+    align-items: stretch;
+    text-align: center;
     flex-wrap: wrap;
 }
 
-.course-item, .instructor-item {
+.feature, .talent-item, .course-item, .instructor-item {
+    flex: 1;
+    padding: 40px 20px;
+    color: white;
     margin: 20px;
     max-width: 300px;
 }
 
-.course-item img, .instructor-item img {
+.feature img, .talent-item img, .course-item img, .instructor-item img {
     width: 100%;
     border-radius: 10px;
 }
@@ -178,59 +109,27 @@ h3 {
     font-size: 1.5em;
 }
 
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
-.header {
+.footer {
     background-color: black;
     color: white;
+    padding: 50px 20px;
     text-align: center;
-    padding: 100px 20px;
-    background-image: url('your-image.jpg'); /* replace with your own image */
-    background-size: cover;
-    background-position: center;
 }
 
-.header-content h1 {
-    font-size: 3em;
-    margin-bottom: 20px;
-}
-
-.cta-button {
-    background-color: #ff5722;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
+.footer-content input {
+    padding: 10px;
+    margin-right: 10px;
+    border: none;
     border-radius: 5px;
 }
 
-.features {
-    display: flex;
-    justify-content: center;
-    align-items: stretch;
-    text-align: center;
+.footer-nav a:hover, .social-media a:hover {
+    text-decoration: underline;
 }
 
-.feature {
-    flex: 1;
+.talent {
     padding: 40px 20px;
-    color: white;
-}
-
-#feature1 {
     background-color: #FF6F61;
-}
-
-#feature2 {
-    background-color: #B39DDB;
-}
-
-#feature3 {
-    background-color: #FFEB3B;
-    color: black;
 }
 
 .testimonials {
@@ -249,50 +148,7 @@ body {
     font-weight: bold;
 }
 
-.footer {
-    background-color: black;
-    color: white;
-    padding: 50px 20px;
-    text-align: center;
-}
-
-.footer-content form {
-    margin-bottom: 20px;
-}
-
-.footer-content input {
-    padding: 10px;
-    margin-right: 10px;
-    border: none;
-    border-radius: 5px;
-}
-
-.footer-content button {
-    padding: 10px 20px;
-    background-color: #ff5722;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.footer-nav a {
-    color: white;
-    margin: 0 10px;
-    text-decoration: none;
-}
-
-.footer-nav a:hover {
-    text-decoration: underline;
-}
-
 .social-media a {
-    color: white;
     margin: 0 10px;
     text-decoration: none;
 }
-
-.social-media a:hover {
-    text-decoration: underline;
-}
-
