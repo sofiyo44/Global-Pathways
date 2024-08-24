@@ -152,3 +152,73 @@ h3 {
     margin: 0 10px;
     text-decoration: none;
 }
+
+/* Learning Together Section */
+.learning-together {
+    background-color: #FFEB3B;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.learning-container h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.learning-container h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+/* Our Courses Section */
+.our-courses {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.courses-container h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.courses-container h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+/* Explore Section */
+.explore-section {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.explore-item {
+    flex: 1;
+    padding: 40px 20px;
+}
+
+#explore1 {
+    background-color: #FF6F61;
+    color: black;
+}
+
+#explore2 {
+    background-color: #B39DDB;
+    color: black;
+}
+
+.explore-item h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.explore-item p {
+    font-size: 1.5em;
+    margin-top: 10px;
+    font-weight: bold;
+    text-decoration: underline;
+}
