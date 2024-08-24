@@ -175,3 +175,83 @@ Here's the continuation and completion of the CSS:
 .footer-nav a:hover, .social-media a:hover {
     text-decoration: underline;
 }
+
+/* Benefits Section */
+.benefits {
+    background-color: #D4A5FF; /* Light purple background */
+    padding: 80px 20px;
+}
+
+.benefit-grid {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.benefit-item {
+    flex: 1;
+    padding: 40px 20px;
+    color: white;
+}
+
+#benefit1 {
+    background-color: #FF6F61; /* Red background */
+}
+
+#benefit2 {
+    background-color: #D4A5FF; /* Light purple background */
+}
+
+#benefit3 {
+    background-color: #FFEB3B; /* Yellow background */
+    color: black;
+}
+
+.benefit-number {
+    font-size: 1.5em;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.benefit-item h3 {
+    margin: 20px 0;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.benefit-item p {
+    font-size: 1em;
+    margin-top: 10px;
+    line-height: 1.5;
+}
+
+/* Testimonials Section */
+.testimonials {
+    background-color: #D4A5FF; /* Light purple background */
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.testimonial-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.testimonial-content h2 {
+    margin-bottom: 40px;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.testimonial-content p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+.testimonial-content .author {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 1.2em;
+}
