@@ -68,3 +68,122 @@ h3 {
     margin-top: 15px;
     font-size: 1.5em;
 }
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    background-image: url('your-image.jpg'); /* replace with your own image */
+    background-size: cover;
+    background-position: center;
+}
+
+.header-content h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    background-color: #ff5722;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    text-align: center;
+}
+
+.feature {
+    flex: 1;
+    padding: 40px 20px;
+    color: white;
+}
+
+#feature1 {
+    background-color: #FF6F61;
+}
+
+#feature2 {
+    background-color: #B39DDB;
+}
+
+#feature3 {
+    background-color: #FFEB3B;
+    color: black;
+}
+
+.testimonials {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #B39DDB;
+}
+
+.testimonials p {
+    font-size: 1.5em;
+    color: black;
+}
+
+.testimonials .author {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.footer-content form {
+    margin-bottom: 20px;
+}
+
+.footer-content input {
+    padding: 10px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.footer-content button {
+    padding: 10px 20px;
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.footer-nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.footer-nav a:hover {
+    text-decoration: underline;
+}
+
+.social-media a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.social-media a:hover {
+    text-decoration: underline;
+}
+
